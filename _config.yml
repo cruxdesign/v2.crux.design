@@ -5,8 +5,8 @@ description: >
   More than just a creative team, Crux commits itself to helping people, brands, and companies solve problems through design.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://crux.ph" # the base hostname & protocol for your site
-twitter_username: cruxph
-github_username:  cruxph
+twitter_username: crux_design
+github_username:  cruxdesign
 permalink: pretty
 
 # Build settings
