@@ -11,13 +11,3 @@ images:
     - /img/works/XU-press-textbook-covers/PBOOK009.png
 ---
 Book cover designs for Xavier University Press
-
-* Test
-* Test
-* Test
-
-<ul>
-    <li>Test</li>
-    <li>Test</li>
-    <li>Test</li>
-</ul>
