@@ -57,11 +57,15 @@ footer .copyright {
         width: 960px;
     }
 }
-
+@media (max-width: 1050){
+    .container {
+        width: 750px;
+    }
+}
 @media (max-width: 960px){
-    /*.container {
-        width: 100%;
-    }*/
+   /*  .container {
+        width: 750px;
+    } */
     footer {
         text-align: center;
         width: inherit;

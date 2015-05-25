@@ -40,8 +40,10 @@
 }
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+    width: 100%;
+    margin-bottom: 60px;
+    min-height: 386px;
+    background-color: transparent;
 }
 
 .video-container .video-content {
