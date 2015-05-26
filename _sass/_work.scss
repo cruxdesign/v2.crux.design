@@ -146,3 +146,21 @@ div.work-page-container > .work-images > .work-item:not(:first-of-type){
         width: 750px;
     }
 }  
+
+@media (max-width: 768px){
+    #home-nav-sm{
+        button{
+            margin-top: 0px;
+          a{
+            img{
+              height: 50px;
+            }
+          }
+        } 
+    }
+    
+    .navbar-header button{
+        margin-top:8px;
+    }
+}
+>>>>>>> CRX-7-fixBrandLogo
