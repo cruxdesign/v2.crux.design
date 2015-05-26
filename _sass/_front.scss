@@ -162,13 +162,6 @@
     background-color: transparent;
 }
 
-#home-nav-sm{
-  a{
-    img{
-      height: 50px;
-    }
-  }
-}
 /* cover style */
 #cover {
     background-image: url('/img/cover.jpg');
@@ -356,11 +349,13 @@ div#about > div.crux-logo-about-container{
     }
   }
 
-  .work-container{
+/*   .work-container{
     position: relative;
     top: 0;
     height: auto;
-  }
+} */
+  
+
 
   #cover{
     .content-container{
@@ -392,6 +387,15 @@ div#about > div.crux-logo-about-container{
     .caption p{
         font-size: 11px;
     }
+    
+    #home-nav-sm{
+  a{
+    img{
+      height: 50px;
+    }
+  }
+}
+
 
 }
 /* for 600px or less */
