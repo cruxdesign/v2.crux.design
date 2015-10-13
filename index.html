@@ -1,33 +1,16 @@
 ---
-layout: default
-title: Crux Design Studio
-description: Made up of a young and talented roster of graphic artists, illustrators, photographers, and filmmakers, we look to share fresh ideas and produce materials to help forward your brand, mission and lifestyle.
-feature_image: /img/crux-brand.png
-og_type: website
+layout: pages/home
 ---
-{% include front/nav.html %}
-{% include front/cover.html %}
-{% include front/montage.html %}
-{% include front/work.html %}
+<section id="cover">
+    {% include home/cover.html %}
+</section>
+<section id="product">
+    {% include home/product.html %}
+</section>
+<section id="whatsnew">
+    {% include home/whatsnew.html %}
+</section>
+<section id="banner">
+    {% include home/banner.html %}
+</section>
 
-<div id="work" class="hidden-sm hidden-xs"></div>
-<div style="position: relative" data-stellar-offset-parent="true" data-stellar-vertical-offset="72">
-    {% include front/about.html %}
-</div>
-<div style="position: relative" data-stellar-offset-parent="true">
-    {% include front/footer.html %}
-</div>
-<script src="{{ "/js/front.js" }}" type="text/javascript"></script>
-<script type="text/javascript">
-        $(document).ready(function () {
-            $.stellar({
-                horizontalScrolling: false,
-                scrollProperty: 'scroll',
-                positionProperty: 'position',
-                responsive: true,
-                hideDistantElements: false,
-                horizontalOffset: 0,
-                verticalOffset: 0
-            });
-        });
-        </script>
