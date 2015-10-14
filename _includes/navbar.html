@@ -2,25 +2,35 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" id="icon-transition" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-right-collapse">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="push-wrap">
+                <button type="button" id="icon-transition" class="navbar-toggle toggle-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
             <a class="navbar-brand" href="/">
-                <img src="/img/brand-logo.png"/>
+                <img src="/img/logo/crux-brand-inverse.png"/>
             </a>
         </div>
 
-        <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="navbar-right-collapse">
+        <nav id="body-nav">
             <ul class="nav navbar-nav navbar-right">
-                {% for navbarMenu in site.data.navbar %}
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                {% for media in site.data.socialMedia %}
                 <li>
-                    <a href="{{navbarMenu.url}}">{{ navbarMenu.name | upcase }}</a>
+                    <a href="javascript:void(0)">
+                        <img src="{{ media.image }}"/>
+                    </a>
                 </li>
                 {% endfor %}
             </ul>
-        </div>
+        </nav>
+
     </div>
 </nav>
+

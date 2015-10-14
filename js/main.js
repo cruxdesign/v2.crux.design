@@ -1,23 +1,23 @@
 var fs = fs || {};
 fs.fsMainFunction = function() {
-    //fs.scrollRevealItems();
-    //fs.stickyNavbar();
-    //fs.iconAnimation();
+    //fs.showMenuOnClick();
+    fs.iconAnimation();
 };
 
-fs.scrollRevealItems = function(){
-    window.sr = new scrollReveal();
-}
+fs.showMenuOnClick = function(){
+    $('.toggle-nav').click(function() {
+        $('body').toggleClass('show-nav');
+        return false;
+    });
+};
 
 fs.iconAnimation = function() {
     $('#icon-transition').on('click', function () {
         $(this).toggleClass('open');
+
     });
 }
 
-fs.stickyNavbar = function(){
-    $(".category-nav-container").sticky({topSpacing:100});
-}
 
 $(function(){
     fs.fsMainFunction();
