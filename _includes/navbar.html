@@ -2,21 +2,35 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <div class="push-wrap">
-                <button type="button" id="icon-transition" class="navbar-toggle toggle-nav">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-            <a class="navbar-brand" href="/">
+            <a href="#" class="navbar-brand">
                 <img src="/img/logo/crux-brand-inverse.png"/>
             </a>
-        </div>
+            <div class="nav-right-container">
+                <ul class="nav navbar-right">
+                    <li id="project-menu">
+                        <a href="#">
+                            <span id="cover-store-button">START A PROJECT</span>
+                        </a>
+                    </li>
+                    <li id="search-menu">
+                        <a href="">
+                            <img src="/img/assets/search.png"/>
+                        </a>
+                    </li>
+                    <li id="menu-list">
+                        <button type="button" id="icon-transition" class="toggle-nav">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </li>
+                </ul>
 
-        <nav id="body-nav">
-            <ul class="nav navbar-nav navbar-right">
+            </div>
+        </div>
+        <div id="body-nav">
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
@@ -29,7 +43,7 @@
                 </li>
                 {% endfor %}
             </ul>
-        </nav>
+        </div>
 
     </div>
 </nav>
