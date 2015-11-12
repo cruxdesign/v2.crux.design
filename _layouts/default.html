@@ -28,14 +28,6 @@
 <script>
   var showMenuOnClick = $('nav.navbar-default .container');
   var iconChangeOnClick = $('#icon-transition');
-  $(function() {
-    $('.toggle-nav').click(function() {
-      showMenuOnClick.toggleClass('show-nav');
-      return false;
-    });
-
-  });
-
   $(document).keyup(function(e) {
     if (e.keyCode == 27) {
       showMenuOnClick.removeClass('show-nav');

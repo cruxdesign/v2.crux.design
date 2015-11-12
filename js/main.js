@@ -1,24 +1,44 @@
-var fs = fs || {};
-fs.fsMainFunction = function() {
-    //fs.showMenuOnClick();
-    fs.iconAnimation();
+var crux = crux || {};
+crux.homeFunction = function() {
+    crux.showMenuOnClick();
+    crux.iconAnimation();
+    crux.shrinkNavbarMenu();
+
 };
 
-fs.showMenuOnClick = function(){
-    $('.toggle-nav').click(function() {
-        $('body').toggleClass('show-nav');
-        return false;
+crux.shrinkNavbarMenu = function(){
+    var brand = $('.navbar-brand');
+    var logo = brand.find('.nav-logo');
+
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50 && $(document).width() >= 992) {
+            $('nav').addClass('navbar-shrink');
+            logo.attr('src', '/img/logo/crux-logo-inverse.png');
+        } else {
+            $('nav').removeClass('navbar-shrink');
+            logo.attr('src', '/img/logo/crux-brand-inverse.png');
+        }
     });
 };
 
-fs.iconAnimation = function() {
+crux.showMenuOnClick = function(){
+    var showMenuOnClick = $('nav.navbar-default .container');
+    $(function(e) {
+        $('.toggle-nav').click(function() {
+            showMenuOnClick.toggleClass('show-nav');
+            return false;
+        });
+    });
+};
+
+crux.iconAnimation = function() {
     $('#icon-transition').on('click', function () {
         $(this).toggleClass('open');
 
     });
 }
 
-
 $(function(){
-    fs.fsMainFunction();
+    crux.homeFunction();
 });
+
