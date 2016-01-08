@@ -14,7 +14,6 @@ nav
             background: #000
             z-index: 1
             ul
-              position: relative
               li
                 a
                   display: inline-block
@@ -144,6 +143,7 @@ nav
           width: 95%
           margin: 2.5%
         ul
+          position: relative
           padding-left: 0
           top: 50%
           left: 0
@@ -160,8 +160,9 @@ nav
           -ms-transform: translateY(-50%)
           li
             a
-              font-size: 2em
-              font-family: Bebas
+              font-size: 1em
+              text-transform: uppercase
+              font-family: Montserrat-Light
               display: none
               text-decoration: none !important
               height: 100px
@@ -171,6 +172,6 @@ nav
               border: none
               transition: all 200ms cubic-bezier(.17,.67,.38,1.46)
               transform: translateY(-500px)
-            &:nth-child(n+4)
+            &:nth-child(n+5)
               display: inline-block
               padding: 0 2%
