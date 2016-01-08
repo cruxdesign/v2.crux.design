@@ -3,10 +3,8 @@ nav
   &.navbar-default
     background-color: transparent
     border-color: transparent
-    .container
-      width: 100%
+    .container-fluid
       height: inherit
-      padding: 0
       &.show-nav
         #body-nav
           visibility: visible
@@ -23,9 +21,7 @@ nav
         height: 150px
         width: 100%
         transition: all 300ms ease
-        height: inherit
         float: none
-        padding: 5px
         .navbar-brand
           position: relative
           margin-left: 0px
@@ -33,41 +29,30 @@ nav
           img
             height: 120px
         .nav-right-container
+          z-index: 2
           float: right
-          padding: 20px
           .navbar-right
+            margin-right: 0
             li
               position: relative
               z-index: 5
               display: inline-block
-              padding: 0 10px
+              //padding: 0 10px
               vertical-align: middle
               &#project-menu
+                background-color: #ffffff
+                margin-right: -5px
                 a
-                  color: white
+                  padding: 10px 30px
+                  color: #000
                   display: inline-block
                   text-decoration: none
                   position: relative
-                  border: 1px solid white
-                  padding: 15px 20px
                   font-family: 'Montserrat-Regular'
-                  font-size: 1em
-                  background: linear-gradient(to right, transparent 50%, white 50%)
-                  background-size: 200% 100%
-                  background-position: left bottom
-                  transition: all 500ms ease
-                  &:hover
-                    color: black
-                    border: 1px solid white
-                    background-position: right bottom
-              &#search-menu
-                a
-                  img
-                    height: 25px
-                  &:hover
-                    background: transparent
+                  font-size: 11px
               &#menu-list
-                margin-right: 0 !important
+                //margin-right: 0 !important
+                background-color: #000
                 .toggle-nav
                   display: inline-block
                   padding: 0
@@ -76,6 +61,7 @@ nav
                   color: black
                   background: transparent
                   background-color: transparent
+                  vertical-align: middle
                   &:hover
                     background: transparent
                     background-color: transparent
@@ -104,8 +90,9 @@ nav
                         width: 0%
                         left: 50%
                 #icon-transition
-                  width: 27px
-                  height: 20px
+                  margin: 10px
+                  width: 23px
+                  height: 15px
                   position: relative
                   -webkit-transition: .5s ease-in-out
                   -moz-transition: .5s ease-in-out
@@ -115,8 +102,8 @@ nav
                   span
                     display: block
                     position: absolute
-                    height: 3px
-                    width: 100%
+                    height: 2px
+                    width: 90%
                     background: white
                     border-radius: 5px
                     opacity: 1
@@ -132,9 +119,9 @@ nav
                     &:nth-child(1)
                       top: 0px
                     &:nth-child(2), &:nth-child(3)
-                      top: 8px
+                      top: 7px
                     &:nth-child(4)
-                      top: 16px
+                      top: 14px
 
       #body-nav
         visibility: hidden
@@ -173,6 +160,6 @@ nav
               border: none
               transition: all 200ms cubic-bezier(.17,.67,.38,1.46)
               transform: translateY(-500px)
-            &:nth-child(n+5)
+            &:nth-child(n+4)
               display: inline-block
               padding: 0 2%

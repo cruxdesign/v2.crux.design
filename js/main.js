@@ -16,13 +16,13 @@ crux.shrinkNavbarMenu = function(){
             logo.attr('src', '/img/logo/crux-logo-inverse.png');
         } else {
             $('nav').removeClass('navbar-shrink');
-            logo.attr('src', '/img/logo/crux-brand-inverse.png');
+            logo.attr('src', '/img/logo/crux-brand.png');
         }
     });
 };
 
 crux.showMenuOnClick = function(){
-    var showMenuOnClick = $('nav.navbar-default .container');
+    var showMenuOnClick = $('nav.navbar-default .container-fluid');
     $(function(e) {
         $('.toggle-nav').click(function() {
             showMenuOnClick.toggleClass('show-nav');

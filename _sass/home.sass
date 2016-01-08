@@ -7,36 +7,20 @@ body
 nav
   &.navbar-shrink
     background-color: black
-    .container
+    min-height: 34px
+    .container-fluid
       .navbar-header
-        height: 90px !important
+        height: 34px !important
         .navbar-brand
           height: auto !important
-          padding: 0 15px
+          padding: 7px 15px
           line-height: 0px
-          position: relative
-          top: 50%
-          transform: translateY(-50%)
-          -webkit-transform: translateY(-50%)
-          -moz-transform: translateY(-50%)
-          -o-transform: translateY(-50%)
-          -ms-transform: translateY(-50%)
           img
-            height: 40px !important
+            height: 20px !important
         .nav-right-container
-          height: 90px !important
-          padding: 0 20px
-          .navbar-right
-            position: relative
-            top: 50%
-            -webkit-transform: translateY(-50%)
-            -moz-transform: translateY(-50%)
-            -o-transform: translateY(-50%)
-            -ms-transform: translateY(-50%)
-
-
+          height: 34px !important
   &.navbar-default
-    .container
+    .container-fluid
       .navbar-header
         .navbar-brand
           img
@@ -47,8 +31,8 @@ nav
             -ms-transition: all 0.5s ease
 
 #cover-section
-  background: url("/img/assets/background.jpg")
-  background-size: cover
+  background: url("/img/assets/coverbg.jpg")
+  background-size: 100% 100%
   height: 100vh
   .row
     height: inherit
@@ -65,5 +49,5 @@ nav
         font-family: 'Bebas'
         font-size: 6em
 #overview-section
-  height: 150vh
+  //height: 150vh
 
