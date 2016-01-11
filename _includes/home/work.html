@@ -1,0 +1,9 @@
+<div id="work-section" class="container-fluid">
+    <div class="row">
+        <div id='grid'>
+            {% for work in site.works %}
+                <div class="block" style="background: url('{{ work.image }}')"></div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
