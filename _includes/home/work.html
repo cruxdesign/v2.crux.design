@@ -2,8 +2,15 @@
     <div class="row">
         <div id='grid'>
             {% for work in site.works %}
-                <div class="block" style="background: url('{{ work.image }}')"></div>
+                <div class="block {{ work.class }}" style="background: url('{{ work.image }}')">
+                    <div class="caption">
+                        <h6>{{ work.type }}</h6>
+                        <h4>{{ work.title }}</h4>
+                    </div>
+                </div>
             {% endfor %}
         </div>
     </div>
 </div>
+
+

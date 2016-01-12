@@ -1,22 +1,26 @@
 $(document).ready( function() {
-    var mason;
-
-    $(function(){
-        mason = $("#grid").mason({
+    $(function() {
+        $("#grid").mason({
             itemSelector: '.block',
-            ratio: 2,
-            columns: [
-                [480,780,1],
-                [1200,1440,3],
-                [1441,1920,3]
+            ratio: 1,
+            promoted: [
+                ['p1', 2, 1.5],
+                ['p2', 3, 1.5],
+                ['p3', 3, 2],
+                ['p4', 2, 2],
+                ['p5', 2, 1.5],
+                ['p6', 3, 1.5]
             ],
-            sizes: [
-                [1,1],
-                [1,2],
-                [2,2]
-            ],
+            //columns: [
+            //    [320, 767, 1],
+            //    [768, 1440, 6],
+            //    [1440, 1920, 6]
+            //],
+            filler: {
+                keepDataAndEvents: false
+            },
             layout: 'fluid',
-            gutter: 5
-        })
+            gutter: 8
+        });
     });
 });
