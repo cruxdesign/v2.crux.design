@@ -55,8 +55,8 @@ nav
   #fillers
     display: none
   #grid
-    position: relative
     width: 100%
+    position: relative
     .block
       position: relative
       float: left
@@ -69,3 +69,18 @@ nav
         background-color: #fff
         padding: 2% 10%
 
+@media (max-width: 1024px)
+  #work-section
+    #grid
+      .block
+        width: 50% !important
+        height: 30vh !important
+        margin: 5px 0 !important
+
+@media (max-width: 767px)
+  #work-section
+    #grid
+      .block
+        width: 100% !important
+        height: 70vh !important
+        margin: 5px 0 !important
