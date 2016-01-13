@@ -62,12 +62,30 @@ nav
       float: left
       background-size: cover !important
       background-position: center !important
+      margin-top: 15px !important
+      margin-bottom: 15px !important
       .caption
         position: absolute
         bottom: 0
         display: inline-block
         background-color: #fff
         padding: 2% 10%
+        transition: all .2s ease-in-out
+        -webkit-transition: all .2s ease-in-out
+        -moz-transition: all .2s ease-in-out
+        -o-transition: all .2s ease-in-out
+        -ms-transition: all .2s ease-in-out
+        transform: translateY(30%)
+        -webkit-transform: translateY(30%)
+        -moz-transform: translateY(30%)
+        -o-transform: translateY(30%)
+        -ms-transform: translateY(30%)
+        &.active
+          transform: translateY(0%)
+          -webkit-transform: translateY(0%)
+          -moz-transform: translateY(0%)
+          -o-transform: translateY(0%)
+          -ms-transform: translateY(0%)
 
 @media (max-width: 1024px)
   #work-section
