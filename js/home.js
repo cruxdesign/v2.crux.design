@@ -30,9 +30,9 @@ crux.workGrid = function() {
 };
 
 crux.workHover = function(){
-    var workItem = $("#work-section #grid .block .caption")
+    var workItem = $("#work-section #grid .block");
     workItem.hover(function(){
-        $(this).toggleClass('active');
+        $(this).find(".caption").toggleClass('active');
     });
 
 };
