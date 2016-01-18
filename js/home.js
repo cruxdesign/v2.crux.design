@@ -9,7 +9,7 @@ crux.workGrid = function() {
     $("#grid").mason({
         itemSelector: '.block',
         columns: [
-            [320, 768, 1],
+            [0, 768, 1],
             [991, 1280, 5]
         ],
         ratio: 1,
