@@ -4,8 +4,8 @@
             {% for work in site.works %}
                 <div class="block {{ work.class }}" style="background: url('{{ work.image }}')">
                     <div class="caption">
-                        <h6>{{ work.type }}</h6>
-                        <h4>{{ work.title }}</h4>
+                        <h6 class="project-type">{{ work.type }}</h6>
+                        <h4 class="project-title">{{ work.title }}</h4>
                     </div>
                 </div>
             {% endfor %}
