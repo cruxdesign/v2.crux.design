@@ -3,7 +3,6 @@ crux.homeFunction = function() {
     crux.showMenuOnClick();
     crux.iconAnimation();
     crux.shrinkNavbarMenu();
-
 };
 
 crux.shrinkNavbarMenu = function(){
@@ -23,7 +22,7 @@ crux.shrinkNavbarMenu = function(){
 
 crux.showMenuOnClick = function(){
     var showMenuOnClick = $('nav.navbar-default .container-fluid');
-    $(function(e) {
+    $(function() {
         $('.toggle-nav').click(function() {
             showMenuOnClick.toggleClass('show-nav');
             return false;
