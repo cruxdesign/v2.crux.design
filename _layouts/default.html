@@ -9,24 +9,20 @@
   <meta name="author" content="">
   <link rel="icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="{{ page.css }}">
-
-  <style>
-
-  </style>
-
-  <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
-  <script type="text/javascript" src="/js/modernizr.custom.js"></script>
-  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/js/main.js"></script>
   <title>Crux Design | {{ page.title }}</title>
 </head>
 <body id="mock">
 {% include navbar.html %}
 {{ content }}
 {% include footer.html %}
+
+<script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 {{ page.javascripts }}
 <script>
-  var showMenuOnClick = $('nav.navbar-default .container-fluid');
+var showMenuOnClick = $('nav.navbar-default .container-fluid');
   var iconChangeOnClick = $('#icon-transition');
   $(document).keyup(function(e) {
     if (e.keyCode == 27) {
