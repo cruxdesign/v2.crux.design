@@ -12,10 +12,11 @@
     <title>Crux Design | {{ page.title }}</title>
 </head>
 <body id="mock">
-{% include navbar.html %}
-<h1>HELLO WORLD</h1>
-{{ content }}
-{% include footer.html %}
+    {% include navbar.html %}
+        {% include website/cover.html %}
+        {% include website/project-info.html %}
+    {% include footer.html %}
+
 <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
 <script type="text/javascript" src="/js/modernizr.custom.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
@@ -32,5 +33,6 @@ if (e.keyCode == 27) {
     });
 </script>
 </body>
+
 
 </html>
