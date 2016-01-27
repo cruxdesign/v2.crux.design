@@ -116,7 +116,12 @@ nav
           font-size: 31px
           font-family: 'Bebas'
 
-@media (max-width: 1024px)
+@media (max-width: $screen-md-max)
+  #intro-section
+    #left-section
+      .intro-description
+        max-width: 90%
+          
   #work-section
     #grid
       .block
@@ -124,12 +129,31 @@ nav
         height: 30vh !important
         margin: 15px 0 !important
 
-@media (max-width: 767px)
+@media (max-width: $screen-sm-max)
+  #intro-section
+    #left-section
+      margin: 5% 0 2%
+      #intro-header
+        text-align: center
+      .intro-description
+        max-width: 65%
+        margin: 0 auto
+        line-height: 35px
+    #right-section
+      .work-title
+        margin: 10px auto
+        width: 80%
+
+@media (max-width: $screen-xs-max)
   #work-section
     #grid
       .block
         width: 100% !important
         height: 70vh !important
+  #intro-section
+    #right-section
+      .work-title
+        max-width: 65%
 
 @media (max-width: 568px)
   nav
@@ -140,7 +164,7 @@ nav
           width: 100% !important
           margin: 0 !important
 
-@media (max-width: 320px)
+@media (max-width: $screen-xs)
   nav
     .container-fluid
       #body-nav
@@ -149,3 +173,15 @@ nav
           li
             a
               height: 80px!important
+              
+  #intro-section
+    #left-section
+      #intro-header
+        font-size: 5.5em
+      .intro-description
+        max-width: 85%
+    #right-section
+      .work-items
+        margin: 10% 0
+        .work-title
+          max-width: 100%

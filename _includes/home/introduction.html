@@ -1,7 +1,7 @@
 <section id="intro-section">
     <div class="container">
         <div class="row">
-            <div id="left-section" class="col-md-6">
+            <div id="left-section" class="col-md-6 col-sm-12">
                 <h1 id="intro-header">MAKE IT.</h1>
                 <p class="intro-description">Let us count the ways you can. Never mind what the other say. "Hard to do. Expensive. Unrealistic. Too ambitious. Impractical."</p>
                 <p class="intro-description">We'll help you through it.</p>
@@ -9,10 +9,10 @@
                 <p class="intro-description">We do not settle. We believe there's always a better way forward.</p>
                 <p class="intro-description">Let us show you the ways.</p>
             </div>
-            <div id="right-section" class="col-md-6">
+            <div id="right-section" class="col-md-6 col-sm-12">
                 <div class="row">
                     {% for introductionItem in site.data.introduction %}
-                    <div class="work-items col-md-4">
+                    <div class="work-items col-sm-4 col-xs-6">
                         <img class="work-icon center-block" src="{{ introductionItem.icon }}"/>
                         <h6 class="text-center work-title">{{ introductionItem.title }}</h6>
                     </div>
