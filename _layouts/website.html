@@ -40,7 +40,11 @@ if (e.keyCode == 27) {
 <script>
     $(document).ready(function() {
         $("#owl-demo").owlCarousel({
-            navigation : false
+            navigation : false,
+            lazyLoad : true,
+            slideSpeed: 4000,
+            autoPlay: true,
+            stopOnHover : true
         });
     });
 </script>
