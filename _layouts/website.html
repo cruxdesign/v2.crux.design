@@ -9,19 +9,23 @@
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="/css/website.css">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/owl.transitions.css">
     <title>Crux Design | {{ page.title }}</title>
 </head>
 <body id="mock">
     {% include navbar.html %}
         {% include website/cover.html %}
         {% include website/project-info.html %}
+        {% include website/project-detail.html %}
+        {% include website/project-slider.html %}
     {% include footer.html %}
 
 <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
 <script type="text/javascript" src="/js/modernizr.custom.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/owl.carousel.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
-{{ page.javascripts }}
 <script>
 var showMenuOnClick = $('nav.navbar-default .container-fluid');
 var iconChangeOnClick = $('#icon-transition');
@@ -30,6 +34,14 @@ if (e.keyCode == 27) {
             showMenuOnClick.removeClass('show-nav');
             iconChangeOnClick.removeClass('open');
         }
+    });
+</script>
+    <!-- Owl carousel config-->
+<script>
+    $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+            navigation : false
+        });
     });
 </script>
 </body>
