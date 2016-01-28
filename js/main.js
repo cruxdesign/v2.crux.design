@@ -5,8 +5,6 @@ crux.homeFunction = function() {
     crux.shrinkNavbarMenu();
 };
 
-
-
 crux.shrinkNavbarMenu = function(){
     var brand = $('.navbar-brand');
     var logo = brand.find('.nav-logo');
@@ -17,7 +15,7 @@ crux.shrinkNavbarMenu = function(){
                 logo.attr('src', '/img/logo/crux-logo-inverse.png');
             } else {
                 $('nav').removeClass('navbar-shrink');
-                logo.attr('src', '/img/logo/crux-brand.png');
+                logo.attr('src', '/img/logo/crux-brand-inverse.png');
             }
         }
     });
