@@ -3,4 +3,4 @@ _site
 .DS_Store
 .idea
 *.iml
-/img/mocks
+/img

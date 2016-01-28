@@ -15,10 +15,11 @@
 </head>
 <body id="mock">
     {% include navbar.html %}
-        {% include website/cover.html %}
+        {% include website/project-cover.html %}
         {% include website/project-info.html %}
         {% include website/project-detail.html %}
         {% include website/project-slider.html %}
+        {% include website/project-wireframe.html %}
     {% include footer.html %}
 
 <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
@@ -39,12 +40,16 @@ if (e.keyCode == 27) {
     <!-- Owl carousel config-->
 <script>
     $(document).ready(function() {
-        $("#owl-demo").owlCarousel({
+        $("#project-slider").owlCarousel({
             navigation : false,
             lazyLoad : true,
             slideSpeed: 4000,
             autoPlay: true,
-            stopOnHover : true
+            stopOnHover : true,
+            items : 5,
+            itemsDesktopSmall : [980,4],
+            itemsTablet: [768,3],
+            itemsMobile : [479,2]
         });
     });
 </script>

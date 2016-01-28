@@ -38,6 +38,22 @@ project-process:
     - title: Color Palette
     - title: Typography
     - title: Responsive Design
-    
+
+project-slider:
+    - image: /img/project/website/slider/img2.png
+    - image: /img/project/website/slider/img3.png
+    - image: /img/project/website/slider/img4.png
+    - image: /img/project/website/slider/img2.png
+    - image: /img/project/website/slider/img3.png
+    - image: /img/project/website/slider/img4.png
+    - image: /img/project/website/slider/img2.png
+    - image: /img/project/website/slider/img3.png
+    - image: /img/project/website/slider/img4.png
+    - image: /img/project/website/slider/img2.png
+    - image: /img/project/website/slider/img3.png
+    - image: /img/project/website/slider/img4.png
+  
+  
+   
    
 ---
