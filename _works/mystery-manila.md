@@ -53,7 +53,15 @@ project-slider:
     - image: /img/project/website/slider/img3.png
     - image: /img/project/website/slider/img4.png
   
-  
+desktop-wireframe: /img/project/website/wireframe/desktop_wireframe.png
+mobile-wireframe: /img/project/website/wireframe/mobile_wireframe.png
    
+color-palette:
+    - hexcode: "000000"
+    - hexcode: "ffffff"
    
+typography:
+    - name: Gotham
+    - name: Gotham
+    - name: Gotham
 ---

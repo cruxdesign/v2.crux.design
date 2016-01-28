@@ -1,0 +1,25 @@
+<div id="project-palette-section" class="container no-gutter">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Color Palette</h4>
+            <div class="row">
+                {% for colorPalette in page.color-palette %}
+                <div class="palette-item-container">
+                    <div class="palette-item" style="background: #{{colorPalette.hexcode}}"></div>
+                    <span class="palette-name">#{{ colorPalette.hexcode }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4>Typography</h4>
+            <ul id="font-container">
+                {% for fontName in page.typography %}
+                    <li>
+                        <span class="font-name">{{ fontName.name }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
