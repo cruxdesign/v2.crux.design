@@ -1,0 +1,11 @@
+<div id="project-responsive-section" class="container no-gutter">
+    <h4>Responsive Design</h4>
+    <div class="row">
+        {% for responsiveImage in page.project-responsive %}
+        <div class="col-md-4">
+            <img class="screen-image center-block img-responsive" src="{{ responsiveImage.image }}"/>
+            <span class="screen-title">{{ responsiveImage.title }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>

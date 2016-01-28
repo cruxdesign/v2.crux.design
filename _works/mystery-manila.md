@@ -64,4 +64,22 @@ typography:
     - name: Gotham
     - name: Gotham
     - name: Gotham
+    
+project-responsive:
+    - title: Desktop
+      image: /img/project/website/responsive/desktop.png
+      
+    - title: Tablet
+      image: /img/project/website/responsive/tablet.png
+      
+    - title: Mobile
+      image: /img/project/website/responsive/mobile.png 
+      
+project-related:
+    - title: Web Design 
+      image: /img/project/website/related/related1.jpg
+      
+    - title: Film
+      image: /img/project/website/related/related1.jpg  
+    
 ---

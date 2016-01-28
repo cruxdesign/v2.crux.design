@@ -1,0 +1,15 @@
+<div id="project-related-section" class="container-fluid no-gutter">
+    <div class="container">
+        <div class="row">
+            <h4 id="section-header">Related Works</h4>
+            <div class="related-item-container">
+                {% for projectItems in page.project-related %}
+                <div class="related-item col-md-3">
+                    <img class="related-image img-responsive" src="{{ projectItems.image }}"/>
+                    <span class="related-title">{{ projectItems.title }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
