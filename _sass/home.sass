@@ -57,38 +57,41 @@ body
     .block
       position: relative
       float: left
-      background-size: cover !important
-      background-position: center !important
       margin-top: 15px !important
       margin-bottom: 15px !important
-      .caption
-        position: absolute
-        bottom: 0
-        display: inline-block
-        background-color: #fff
-        padding: 2% 4% 2% 3%
-        transition: all .2s ease-in-out
-        -webkit-transition: all .2s ease-in-out
-        -moz-transition: all .2s ease-in-out
-        -o-transition: all .2s ease-in-out
-        -ms-transition: all .2s ease-in-out
-        transform: translateY(30%)
-        -webkit-transform: translateY(30%)
-        -moz-transform: translateY(30%)
-        -o-transform: translateY(30%)
-        -ms-transform: translateY(30%)
-        &.active
-          transform: translateY(0%)
-          -webkit-transform: translateY(0%)
-          -moz-transform: translateY(0%)
-          -o-transform: translateY(0%)
-          -ms-transform: translateY(0%)
-        .project-type
-          font-size: 11px
-          letter-spacing: 2px
-        .project-title
-          font-size: 31px
-          font-family: 'Bebas'
+      color: #000
+      .work-image
+        background-size: cover !important
+        background-position: center !important
+        height: inherit
+        .caption
+          position: absolute
+          bottom: 0
+          display: inline-block
+          background-color: #fff
+          padding: 2% 4% 2% 3%
+          transition: all .2s ease-in-out
+          -webkit-transition: all .2s ease-in-out
+          -moz-transition: all .2s ease-in-out
+          -o-transition: all .2s ease-in-out
+          -ms-transition: all .2s ease-in-out
+          transform: translateY(30%)
+          -webkit-transform: translateY(30%)
+          -moz-transform: translateY(30%)
+          -o-transform: translateY(30%)
+          -ms-transform: translateY(30%)
+          &.active
+            transform: translateY(0%)
+            -webkit-transform: translateY(0%)
+            -moz-transform: translateY(0%)
+            -o-transform: translateY(0%)
+            -ms-transform: translateY(0%)
+          .project-type
+            font-size: 11px
+            letter-spacing: 2px
+          .project-title
+            font-size: 31px
+            font-family: 'Bebas'
 
 @media (max-width: $screen-md-max)
   #intro-section
@@ -104,12 +107,12 @@ body
         margin: 15px 0 !important
 
 @media (max-width: $screen-sm-max)
-  nav
-    &.navbar-default
-    .container-fluid
-      .navbar-header
-        .navbar-brand
-          img
+  //nav
+  //  &.navbar-default
+  //  .container-fluid
+  //    .navbar-header
+  //      .navbar-brand
+  //        img
 
   #intro-section
     #left-section

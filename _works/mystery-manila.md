@@ -1,6 +1,7 @@
 ---
 layout: "website"
 id: 2
+workUrl: works/mystery-manila/ 
 title: "MYSTERY MANILA"
 type: "WEB DESIGN & DEV"
 image: /img/work/mysterymanila.jpg

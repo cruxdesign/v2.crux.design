@@ -2,12 +2,14 @@
     <div class="row">
         <div id='grid'>
             {% for work in site.works %}
-                <div class="block {{ work.class }}" style="background: url('{{ work.image }}')">
+            <a class="block {{ work.class }}" href="{{ work.workUrl }}">
+                <div class="work-image" style="background: url('{{ work.image }}')">
                     <div class="caption">
                         <h6 class="project-type">{{ work.type }}</h6>
                         <h4 class="project-title">{{ work.title }}</h4>
                     </div>
                 </div>
+            </a>
             {% endfor %}
         </div>
     </div>
