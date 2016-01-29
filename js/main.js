@@ -12,7 +12,7 @@ crux.shrinkNavbarMenu = function(){
         if(window.innerWidth >= 992) {
             if ($(document).scrollTop() > 50) {
                 $('nav').addClass('navbar-shrink');
-                logo.attr('src', '/img/logo/crux-logo-inverse.png');
+                logo.attr('src', '/img/logo/crux-brand-inverse.png');
             } else {
                 $('nav').removeClass('navbar-shrink');
                 logo.attr('src', '/img/logo/crux-brand-inverse.png');

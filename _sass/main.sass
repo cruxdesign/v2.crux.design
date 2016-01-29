@@ -26,19 +26,38 @@ nav
           padding: 7px 15px
           line-height: 0px
           img
-            height: 20px !important
+            height: 70px !important
         .nav-right-container
-          height: 34px !important
+          transform: translateY(0px) !important
+          .navbar-right
+            li
+              &#project-menu
+                background-color: white
+                a
+                  color: #000 !important
+                  padding: 35px 30px !important
+
   &.navbar-default
     .container-fluid
       .navbar-header
         .navbar-brand
           img
-            transition: all 0.5s ease
-            -webkit-transition: all 0.5s ease
-            -moz-transition: all 0.5s ease
-            -o-transition: all 0.5s ease
-            -ms-transition: all 0.5s ease
+            transition: all 0.3s ease
+            -webkit-transition: all 0.3s ease
+            -moz-transition: all 0.3s ease
+            -o-transition: all 0.3s ease
+            -ms-transition: all 0.3s ease
+        .nav-right-container
+          transform: translateY(50px)
+          .navbar-right
+            li
+              &#project-menu
+                a
+                  transition: all 0.3s ease
+                  -webkit-transition: all 0.3s ease
+                  -moz-transition: all 0.3s ease
+                  -o-transition: all 0.3s ease
+                  -ms-transition: all 0.3s ease
 
 footer
   background-color: #f5f5f5
