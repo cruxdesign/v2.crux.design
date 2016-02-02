@@ -1,0 +1,13 @@
+<div id="project-creative" class="container">
+    <div class="row">
+        <div class="left-content col-md-4">
+            <h4 class="section-header">Creative Process</h4>
+            <p class="creative-description">{{ page.creative-description }}</p>
+        </div>
+        <div class="col-md-8">
+            {% for creativeImage in page.creative-image %}
+            <div class="col-md-3 creative-item" style="background: url('{{ creativeImage.image }}');"></div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

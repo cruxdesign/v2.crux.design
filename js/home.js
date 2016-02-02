@@ -3,7 +3,29 @@ var crux = crux || {};
 crux.init = function(){
     crux.workGrid();
     crux.workHover();
+    crux.shrinkNavbarMenu();
 };
+
+crux.shrinkNavbarMenu = function(){
+    var brand = $('.navbar-brand');
+    var logo = brand.find('.nav-logo');
+    $(window).scroll(function() {
+        if(window.innerWidth >= 992) {
+            if ($(document).scrollTop() > 50) {
+                $('nav').addClass('navbar-shrink');
+                logo.attr('src', '/img/logo/crux-brand-inverse.png');
+            } else {
+                $('nav').removeClass('navbar-shrink');
+                logo.attr('src', '/img/logo/crux-brand-inverse.png');
+            }
+        }
+    });
+    if (window.innerWidth <= 991) {
+        $('nav').addClass('navbar-shrink');
+        logo.attr('src', '/img/logo/crux-logo-inverse.png');
+    }
+};
+
 
 crux.workGrid = function() {
     $("#grid").mason({

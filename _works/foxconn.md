@@ -1,14 +1,15 @@
 ---
 layout: "animation"
+css: /css/animation.css
 id: 3
 workUrl: works/foxconn/
-title: "FOXCONN BUILDERS"
-type: "ANIMATION"
+title: "Automated Security Shutter"
+type: "MOTION"
 image: /img/work/foxconn.jpg
 class: p4
 
-cover-bg: /img/project/website/mystery-cover.jpg
-cover-button: /img/project/assets
+cover-bg: http://res.cloudinary.com/foxconn/image/upload/v1446467400/shutter/video-cover.jpg
+cover-button: /img/project/assets/play-icon.png
 
 social-media:
     - url: https://www.google.com
@@ -21,61 +22,50 @@ social-media:
       social-icon: /img/project/website/icon_facebook.png  
 work-info:
     - type: Client
-      name: Mystery Manila
+      name: Foxconn Builders Corp.
       
-    - type: Web Designer
-      name: Joey Sendaydiego  
+    - type: Design & Animation 
+      name: Yel Mauricio <br/> Kata Alamon  
       
-    - type: Web Developer
-      name: Rens Ramos
+    - type: Creative Direction
+      name: Joey Sendaydiego
       
-project-type-icon: '/img/project/website/web_icon.png'
+project-type-icon: '/img/project/animation/animation_icon.png'
 
 project-detail:
     - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     
 project-process:
-    - title: Wireframe
-    - title: Color Palette
-    - title: Typography
-    - title: Responsive Design
+    - title: Creative process
+   
 
 project-slider:
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-  
-desktop-wireframe: /img/project/website/wireframe/desktop_wireframe.png
-mobile-wireframe: /img/project/website/wireframe/mobile_wireframe.png
-   
-color-palette:
-    - hexcode: "000000"
-    - hexcode: "ffffff"
-   
-typography:
-    - name: Gotham
-    - name: Gotham
-    - name: Gotham
+    - image: /img/project/animation/slider/img1.jpg
+    - image: /img/project/animation/slider/img2.jpg
+    - image: /img/project/animation/slider/img3.jpg
+    - image: /img/project/animation/slider/img4.jpg
+    - image: /img/project/animation/slider/img5.jpg
+    - image: /img/project/animation/slider/img6.jpg
+    - image: /img/project/animation/slider/img1.jpg
+    - image: /img/project/animation/slider/img2.jpg
+    - image: /img/project/animation/slider/img3.jpg
+    - image: /img/project/animation/slider/img4.jpg
+    - image: /img/project/animation/slider/img5.jpg
+    - image: /img/project/animation/slider/img6.jpg
     
-project-responsive:
-    - title: Desktop
-      image: /img/project/website/responsive/desktop.png
-      
-    - title: Tablet
-      image: /img/project/website/responsive/tablet.png
-      
-    - title: Mobile
-      image: /img/project/website/responsive/mobile.png 
+  
+creative-image:
+    - image: /img/project/animation/creative-process/img1.jpg
+    - image: /img/project/animation/creative-process/img2.jpg
+    - image: /img/project/animation/creative-process/img3.jpg
+    - image: /img/project/animation/creative-process/img1.jpg
+    - image: /img/project/animation/creative-process/img2.jpg
+    - image: /img/project/animation/creative-process/img3.jpg
+    - image: /img/project/animation/creative-process/img1.jpg
+    - image: /img/project/animation/creative-process/img2.jpg
+
+creative-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       
 project-related:
     - title: Web Design 

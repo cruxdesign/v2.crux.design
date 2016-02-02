@@ -1,15 +1,56 @@
 <div id="project-section" class="container no-gutter">
     <div class="row">
+        <!-- cols for film page layout-->
+        {% if page.type == "FILM" %}
+        <div class="project-title-section col-md-5 col-sm-6 col-xs-12">
+            <span class="project-title">{{ page.title }}</span>
+            <span class="project-type">{{ page.type }}</span>
+            <ul class="social-widget-container">
+                {% for socialItem in page.social-media %}
+                <li class="social-item">
+                    <a href="{{ socialItem.url }}" target="_blank">
+                        <img class="img-responsive social-image" src="{{ socialItem.social-icon }}"/>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="project-client-section col-md-6 col-sm-6">
+            <div class="col-md-5 col-sm-6">
+                <ul class="project-info-container">
+                    {% for projectInfo in page.work-info %}
+                    <li class="project-info-item">
+                        <span class="project-info-type">{{ projectInfo.type }}</span>
+                        <span class="project-info-name">{{ projectInfo.name }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-5 col-sm-6">
+                <ul class="project-info-container">
+                    {% for projectTalent in page.work-talent %}
+                    <li class="project-info-item">
+                        <span class="project-info-type">{{ projectTalent.type }}</span>
+                        <span class="project-info-name">{{ projectTalent.name }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+
+        {% else %}
+        <!-- default cols for all-->
         <div class="project-title-section col-md-6 col-sm-6 col-xs-12">
             <span class="project-title">{{ page.title }}</span>
             <span class="project-type">{{ page.type }}</span>
             <ul class="social-widget-container">
                 {% for socialItem in page.social-media %}
-                    <li class="social-item">
-                        <a href="{{ socialItem.url }}" target="_blank">
+                <li class="social-item">
+                    <a href="{{ socialItem.url }}" target="_blank">
                         <img class="img-responsive social-image" src="{{ socialItem.social-icon }}"/>
-                        </a>
-                    </li>
+                    </a>
+                </li>
                 {% endfor %}
             </ul>
         </div>
@@ -23,6 +64,9 @@
                 {% endfor %}
             </ul>
         </div>
+        {% endif %}
+
+
         <div class="project-type-section col-md-2 hidden-sm hidden-xs no-gutter">
             <img class="project-type-icon" src="{{ page.project-type-icon }}"/>
         </div>

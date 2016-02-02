@@ -2,36 +2,30 @@ var crux = crux || {};
 crux.homeFunction = function() {
     crux.showMenuOnClick();
     crux.iconAnimation();
-    crux.shrinkNavbarMenu();
+    crux.changeIcon
+
+
 };
 
-crux.shrinkNavbarMenu = function(){
-    var brand = $('.navbar-brand');
-    var logo = brand.find('.nav-logo');
-    $(window).scroll(function() {
-        if(window.innerWidth >= 992) {
-            if ($(document).scrollTop() > 50) {
-                $('nav').addClass('navbar-shrink');
-                logo.attr('src', '/img/logo/crux-brand-inverse.png');
-            } else {
-                $('nav').removeClass('navbar-shrink');
-                logo.attr('src', '/img/logo/crux-brand-inverse.png');
-            }
-        }
-    });
-    if (window.innerWidth <= 991) {
-        $('nav').addClass('navbar-shrink');
-        logo.attr('src', '/img/logo/crux-logo-inverse.png');
-    }
-};
+var showMenuOnClick = $('nav.navbar-default .container-fluid');
+
+
 
 crux.showMenuOnClick = function(){
     var showMenuOnClick = $('nav.navbar-default .container-fluid');
+    var iconChangeOnClick = $('#icon-transition');
     $(function() {
         $('.toggle-nav').click(function() {
             showMenuOnClick.toggleClass('show-nav');
             return false;
         });
+    });
+    //close burger menu
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27) {
+            showMenuOnClick.removeClass('show-nav');
+            iconChangeOnClick.removeClass('open');
+        }
     });
 };
 

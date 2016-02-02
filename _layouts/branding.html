@@ -15,7 +15,7 @@
     <title>Crux Design | {{ page.title }}</title>
 </head>
 <body id="mock">
-{% include navbar.html %}
+{% include navbar-work.html %}
 {% include project/project-cover.html %}
 {% include project/project-info.html %}
 {% include project/project-detail.html %}
@@ -32,10 +32,8 @@
 <script type="text/javascript" src="/js/modernizr.custom.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/owl.carousel.js"></script>
-<!--<script src='http://isotope.metafizzy.co/isotope.pkgd.js'></script>-->
-<!--<script src='https://rawgit.com/metafizzy/isotope-masonry-horizontal/master/masonry-horizontal.js'></script>-->
-<!--<script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>-->
 <script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/work.js"></script>
 <script>
     var showMenuOnClick = $('nav.navbar-default .container-fluid');
     var iconChangeOnClick = $('#icon-transition');
@@ -47,39 +45,6 @@
     });
 </script>
 <!-- Owl carousel config-->
-<script>
-    $(document).ready(function() {
-        $("#project-slider").owlCarousel({
-            navigation : false,
-            lazyLoad : true,
-            slideSpeed: 4000,
-            autoPlay: true,
-            stopOnHover : true,
-            items : 5,
-            itemsDesktopSmall : [980,4],
-            itemsTablet: [768,3],
-            itemsMobile : [479,2]
-        });
-    });
-</script>
-<!--<script>-->
-    <!--$(document).ready( function() {-->
-        <!--var grid = $('.grid');-->
-        <!--grid.isotope({-->
-            <!--layoutMode: 'masonryHorizontal',-->
-            <!--itemSelector: '.grid-item',-->
-            <!--masonryHorizontal: {-->
-                <!--rowHeight: 100-->
-            <!--}-->
-        <!--});-->
 
-        <!--//layout Isotope after each image loads-->
-        <!--grid.imagesLoaded().progress( function() {-->
-            <!--grid.isotope('layout');-->
-        <!--});-->
-
-    <!--});-->
-
-<!--</script>-->
 </body>
 </html>

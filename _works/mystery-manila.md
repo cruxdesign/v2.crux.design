@@ -1,5 +1,6 @@
 ---
 layout: "website"
+css: /css/website.css
 id: 2
 workUrl: works/mystery-manila/ 
 title: "MYSTERY MANILA"
