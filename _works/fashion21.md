@@ -8,7 +8,7 @@ type: "FILM"
 image: /img/work/fashion21.jpg
 class: p3
 
-cover-bg: http://res.cloudinary.com/foxconn/image/upload/v1446467400/shutter/video-cover.jpg
+cover-bg: /img/project/film/cover-bg.jpg
 cover-button: /img/project/assets/play-icon.png
 
 social-media:
