@@ -8,10 +8,8 @@
                 </a>
                 <div class="nav-right-container">
                     <ul class="nav navbar-right">
-                        <li class="hidden-sm hidden-xs" id="project-menu">
-                            <a href="#">
-                                <span id="cover-store-button">START A PROJECT</span>
-                            </a>
+                        <li id="project-menu">
+                            <span class="toggle-planner">START A PROJECT</span>
                         </li>
                         <li id="menu-list">
                             <button type="button" id="icon-transition" class="toggle-nav">
@@ -23,7 +21,31 @@
                         </li>
                     </ul>
                 </div>
+            </div>
 
+            <div id="body-planner">
+                <div class="form-container">
+                    <button type="button" class="close-menu toggle-planner">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="container">
+                        <div class="row">
+                            <form action="//formspree.io/capielle17@gmail.com" method="POST">
+                                <input type="text" class="input-sm" name="name" placeholder="Name" >
+                                <input type="email" class="input-sm" name="email" placeholder="Email">
+                                <input type="text" class="input-sm" name="project" placeholder="Project">
+                                <textarea type="text" class="form-control" name="description" placeholder="description"></textarea>
+
+                                <!-- for url redirecting-->
+                                <input type="hidden" name="_next" value="{{ page.url }}" />
+                                <input type="submit" class="input-sm" value="Send">
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div id="body-nav">
