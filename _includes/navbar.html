@@ -32,18 +32,28 @@
                         <span></span>
                     </button>
                     <div class="container">
-                        <div class="row">
-                            <form action="//formspree.io/capielle17@gmail.com" method="POST">
-                                <input type="text" class="input-sm" name="name" placeholder="Name" >
-                                <input type="email" class="input-sm" name="email" placeholder="Email">
-                                <input type="text" class="input-sm" name="project" placeholder="Project">
-                                <textarea type="text" class="form-control" name="description" placeholder="description"></textarea>
+                        <form id="planner-form" autocomplete="off" class="form-group" method="POST">
+                            <input type="text" class="input-item form-control" name="name" placeholder="Name" required>
+                            <input type="email" class="input-item form-control" name="_replyto" placeholder="Email" required>
+                            <!--<input type="text" class="input-item form-control" name="project" placeholder="Project" required>-->
 
-                                <!-- for url redirecting-->
-                                <input type="hidden" name="_next" value="{{ page.url }}" />
-                                <input type="submit" class="input-sm" value="Send">
-                            </form>
-                        </div>
+                            <div class="dropdown">
+                                <input name="project-type" placeholder="Select Project Type" class="input-item form-control dropdown-toggle" type="text" id="project-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
+                                <ul class="dropdown-menu" aria-labelledby="project-list">
+                                    {% for projectOffer in site.data.projectOffer %}
+                                        <li class="project-item">{{ projectOffer.title }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <textarea type="text" class="input-item form-control" name="description" placeholder="Brief Description" required></textarea>
+
+                            <!-- for url redirecting-->
+                            <input type="hidden" name="_next" value="{{ page.url }}" />
+                            <input type="hidden" name="_subject" value="New submission!" />
+                            <input id="testEmail" type="text" name="_gotcha"/>
+                            <button type="submit" class="button-submit" value="Send">SUBMIT</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -56,6 +66,7 @@
                         <span></span>
                         <span></span>
                     </button>
+
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Work</a></li>
@@ -75,4 +86,5 @@
         </div>
     </div>
 </nav>
+<!--<div class="alert alert-success alert-dialog" role="alert">TEST SUBMITTED SUCCESSFULLY!!!.</div>-->
 

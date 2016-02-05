@@ -1,5 +1,4 @@
 nav
-
   &.navbar-default
     border: 0
     background-color: transparent
@@ -13,13 +12,8 @@ nav
             background: #000
             .close-menu
               opacity: 1
-            ul
-              li
-                a
-                  display: inline-block
-                  opacity: 1
-                  transform: translateY(0)
-
+            .form-group
+              opacity: 1
       &.show-nav
         #body-nav
           visibility: visible
@@ -194,36 +188,58 @@ nav
                 top: 18px
                 width: 0%
                 left: 50%
-          ul
+          .container
             position: relative
-            padding-left: 0
             top: 50%
-            left: 0
-            right: 0
-            margin-left: auto
-            margin-right: auto
-            display: inline-block
-            list-style: none
-            width: 100%
             transform: translateY(-50%)
             -webkit-transform: translateY(-50%)
             -moz-transform: translateY(-50%)
             -o-transform: translateY(-50%)
             -ms-transform: translateY(-50%)
-            li
-              a
-                font-size: 1em
-                text-transform: uppercase
-                font-family: Montserrat-Light
-                display: none
-                text-decoration: none !important
-                height: 100px
-                line-height: 100px
-                color: white
-                opacity: 0
-                border: none
-                transition: all 200ms cubic-bezier(.17,.67,.38,1.46)
-                transform: translateY(-500px)
+          .form-group
+            opacity: 0
+            max-width: 50%
+            margin: 0 auto
+            .input-item
+              color: #ffffff
+              background-color: transparent !important
+              border-top: none
+              border-bottom: 1px solid #ffffff
+              border-left: none
+              border-right: none
+              border-radius: 0
+              margin: 5% 0
+            //.input-text-area
+            //  color: #ffffff
+            //  background-color: transparent
+            //  border-top: none
+            //  border-bottom: 1px solid #ffffff
+            //  border-left: none
+            //  border-right: none
+            //  border-radius: 0
+            //  margin: 5% 0
+            .dropdown
+              float: left
+              margin: 5% 0
+              .dropdown-toggle
+                float: left
+                margin-right: 1%
+                //padding-right: 11em
+              .dropdown-menu
+                background-color: transparent
+                float: left
+                position: relative
+                .project-item
+                  white-space: nowrap
+                  margin: 5% 0
+                  color: white
+                  cursor: pointer
+
+            .button-submit
+              padding: 1% 5%
+              background-color: white
+              border: 0
+
 
       #body-nav
         visibility: hidden
@@ -315,3 +331,15 @@ nav
               &:nth-child(n+5)
                 display: inline-block
                 padding: 0 2%
+
+//.alert-dialog
+//  //visibility: hidden
+//  position: fixed
+//  top: 50%
+//  transform: translateY(-50%)
+//  left: 0
+//  right: 0
+//  margin: 0 auto
+//  width: 30%
+//  text-align: center
+//  z-index: 1
