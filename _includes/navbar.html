@@ -38,7 +38,7 @@
                             <!--<input type="text" class="input-item form-control" name="project" placeholder="Project" required>-->
 
                             <div class="dropdown">
-                                <input name="project-type" placeholder="Select Project Type" class="input-item form-control dropdown-toggle" type="text" id="project-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
+                                <input name="project-type" placeholder="Select Project Type" class="input-item form-control" type="text" id="project-list" data-toggle="dropdown" readonly/>
                                 <ul class="dropdown-menu" aria-labelledby="project-list">
                                     {% for projectOffer in site.data.projectOffer %}
                                         <li class="project-item">{{ projectOffer.title }}</li>
