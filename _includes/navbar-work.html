@@ -8,10 +8,8 @@
                 </a>
                 <div class="nav-right-container">
                     <ul class="nav navbar-right">
-                        <li class="hidden-sm hidden-xs" id="project-menu">
-                            <a href="#">
-                                <span id="cover-store-button">START A PROJECT</span>
-                            </a>
+                        <li id="project-menu">
+                            <span class="toggle-planner">START A PROJECT</span>
                         </li>
                         <li id="menu-list">
                             <button type="button" id="icon-transition" class="toggle-nav">
@@ -22,9 +20,44 @@
                             </button>
                         </li>
                     </ul>
-
                 </div>
             </div>
+
+            <div id="body-planner">
+                <div class="form-container">
+                    <button type="button" class="close-menu toggle-planner">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="container">
+                        <form id="planner-form" autocomplete="off" class="form-group" method="POST">
+                            <input type="text" class="input-item form-control" name="name" placeholder="Name" required>
+                            <input type="email" class="input-item form-control" name="_replyto" placeholder="Email" required>
+                            <!--<input type="text" class="input-item form-control" name="project" placeholder="Project" required>-->
+
+                            <div class="dropdown">
+                                <input name="project-type" placeholder="Select Project Type" class="input-item form-control" type="text" id="project-list" data-toggle="dropdown" readonly/>
+                                <ul class="dropdown-menu" aria-labelledby="project-list">
+                                    {% for projectOffer in site.data.projectOffer %}
+                                    <li class="project-item">{{ projectOffer.title }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <textarea type="text" class="input-item form-control" name="description" placeholder="Brief Description" required></textarea>
+
+                            <!-- for url redirecting-->
+                            <input type="hidden" name="_next" value="{{ page.url }}" />
+                            <input type="hidden" name="_subject" value="New submission!" />
+                            <input id="testEmail" type="text" name="_gotcha"/>
+                            <button type="submit" class="button-submit" value="Send">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
             <div id="body-nav">
                 <div class="menu-container">
                     <ul>
