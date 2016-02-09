@@ -12,7 +12,12 @@
   <title>Crux Design | {{ page.title }}</title>
 </head>
 <body id="mock">
-{% include navbar.html %}
+{% if page.url == '/' %}
+  {% include navbar.html %}
+{% else %}
+  {% include navbar-work.html %}
+{% endif %}
+
 {{ content }}
 {% include footer.html %}
 

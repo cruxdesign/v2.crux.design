@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /about/
+css: /css/about.css
+title: About
+---
+
+<div id="about-section" class="container">
+    <div class="about-content">
+        <div class="col-md-8">
+            <h2 class="section-header">We Are</h2>
+            <p class="work-offer-description">More than just a creative team, Crux commits itself to helping people, brands, and companies solve problems through design.</p>
+            <p class="work-offer-description">Made up of a young and talented roster of graphic artists, illustrators, photographers, and filmmakers, we look tos hare fresh ideas and produce materials to help forward your brand, mission and lifestyle.</p>
+            <p class="work-offer-description">Proficiencies include, but are not limited to, advertising branding, creative direction, typography design, illustration, lettering, motion graphics, photography, and video production.</p>
+        </div>
+        <div class="col-md-4">
+            <h2 class="section-header">What we do</h2>
+            <ul class="work-offer-container">
+                {% for workOffer in site.data.workOffer %}
+                <li>
+                    <span class="work-offer-title">{{ workOffer.title }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
