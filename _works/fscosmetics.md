@@ -5,7 +5,7 @@ id: 4
 workUrl: works/fscosmetics
 title: "FS COSMETICS"
 type: "Web Design & Dev"
-image: /img/work/fscosmetics.jpg
+image: fscosmetics-work.jpg
 class: p6
 
 cover-logo: /img/project/branding/cover-logo.png

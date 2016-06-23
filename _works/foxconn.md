@@ -5,7 +5,7 @@ id: 3
 workUrl: works/foxconn/
 title: "Automated Security Shutter"
 type: "MOTION"
-image: /img/work/foxconn.jpg
+image: foxconn-work.jpg
 class: p4
 
 cover-bg: http://res.cloudinary.com/foxconn/image/upload/v1446467400/shutter/video-cover.jpg

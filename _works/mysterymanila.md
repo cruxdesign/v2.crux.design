@@ -5,7 +5,7 @@ id: 2
 workUrl: works/mysterymanila/
 title: "MYSTERY MANILA"
 type: "WEB DESIGN & DEV"
-image: /img/work/mysterymanila.jpg
+image: mysterymanila-work.jpg
 class: p6
 
 cover-bg: /img/project/website/mystery-cover.jpg
