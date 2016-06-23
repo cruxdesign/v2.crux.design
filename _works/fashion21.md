@@ -1,10 +1,10 @@
 ---
-layout: "film"
-css: /css/film.css
+layout: "website"
+css: /css/website.css
 id: 5
 workUrl: works/fashion21/
 title: "FASHION 21"
-type: "FILM"
+type: "Web Design & Dev"
 image: /img/work/fashion21.jpg
 class: p3
 
@@ -20,25 +20,26 @@ social-media:
     
     - url: https://www.google.com
       social-icon: /img/project/website/icon_facebook.png  
+
 work-info:
-    - type: Client
-      name: Foxconn Builders Corp.
-      
-    - type: Design & Animation 
-      name: Yel Mauricio <br/> Kata Alamon  <br/> Joey Sendaydiego 
-      
-work-talent:
-    - type: Talent
-      name: Lexi Noval <br/> Dada Tongco <br/> Ann Au
-      
+   - type: Client
+     name: FS Cosmetics
+
+   - type: Web Designer
+     name: Nicole Lopuz
+
+   - type: Web Developer
+     name: Rens Ramos<br/>Ruel Aballe
     
       
-project-type-icon: '/img/project/film/film_icon.png'
+project-type-icon: '/img/project/website/web_icon.png'
 
 project-detail:
-    - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    
+    - description: Fashion 21 was born from the idea of a fresh look for the woman of the 21st century. It was to offer to Filipinas a new brand of imported, good quality and long-lasting make up at an affordable price.
+                   <br/><br/>
+
+
+
 project-process:
     - title: Creative process
    

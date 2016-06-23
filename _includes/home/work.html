@@ -1,18 +1,17 @@
-<div id="work-section" class="container-fluid">
-    <div class="row">
-        <div id='grid'>
-            {% for work in site.works %}
-            <a class="block {{ work.class }}" href="{{ work.workUrl }}">
-                <div class="work-image" style="background: url('{{ work.image }}')">
-                    <div class="caption">
-                        <h6 class="project-type">{{ work.type }}</h6>
-                        <h4 class="project-title">{{ work.title }}</h4>
-                    </div>
+<div id="work-section" class="container-fluid no-gutter">
+    {% for work in site.works %}
+    <div class="work-item col-md-3 no-gutter">
+        <a class="work-link" href="{{ work.workUrl }}">
+            <div class="work-image" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ work.image }}')">
+                <div class="caption">
+                    <h4 class="project-title">{{ work.title }}</h4>
+                    <h6 class="project-type">{{ work.type }}</h6>
                 </div>
-            </a>
-            {% endfor %}
-        </div>
+            </div>
+        </a>
     </div>
+    {% endfor %}
 </div>
+
 
 

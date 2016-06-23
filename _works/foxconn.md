@@ -33,12 +33,16 @@ work-info:
 project-type-icon: '/img/project/animation/animation_icon.png'
 
 project-detail:
-    - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    
+    - description: Foxconn Builders is a company that sells high quality products that is automated shutters, louvers, and floodgates. It was challenging to present the qualities of the product at the same time making the customers better understand them.
+                   <br/><br/>Foxconn Builders is a company that sells high quality products that is automated shutters, louvers, and floodgates. It was challenging to present the qualities of the product at the same time making the customers better understand them.
+    - description: An animated video was used to explain to the users how the different products work and its applications. The collaterals from the animated video was also used for the website to explain and highlight the different qualities that Foxconn would like to stress. Using the different graphics, they were able to explain the qualities end a easy and friendly way
 project-process:
     - title: Creative process
-   
+    - title: Animation
+    - title: Story boarding
+    - title: Voice over
+
+
 
 project-slider:
     - image: /img/project/animation/slider/img1.jpg
