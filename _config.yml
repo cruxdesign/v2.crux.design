@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.crux.design" # the base hostname & protocol for your site
 twitter_username: crux_design
 github_username:  cruxdesign
-permalink: pretty
 
 # Build settings
 markdown: kramdown
