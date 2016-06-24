@@ -30,7 +30,7 @@ work-info:
     - type: Creative Direction
       name: Joey Sendaydiego
       
-project-type-icon: '/img/project/animation/animation_icon.png'
+project-type-icon: https://res.cloudinary.com/design-studio/image/upload/project/animation/animation_icon.png
 
 project-detail:
     - description: Foxconn Builders is a company that sells high quality products that is automated shutters, louvers, and floodgates. It was challenging to present the qualities of the product at the same time making the customers better understand them.
@@ -45,18 +45,18 @@ project-process:
 
 
 project-slider:
-    - image: /img/project/animation/slider/img1.jpg
-    - image: /img/project/animation/slider/img2.jpg
-    - image: /img/project/animation/slider/img3.jpg
-    - image: /img/project/animation/slider/img4.jpg
-    - image: /img/project/animation/slider/img5.jpg
-    - image: /img/project/animation/slider/img6.jpg
-    - image: /img/project/animation/slider/img1.jpg
-    - image: /img/project/animation/slider/img2.jpg
-    - image: /img/project/animation/slider/img3.jpg
-    - image: /img/project/animation/slider/img4.jpg
-    - image: /img/project/animation/slider/img5.jpg
-    - image: /img/project/animation/slider/img6.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img1.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img5.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img6.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img1.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img5.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/animation/slides/img6.jpg
     
   
 creative-image:

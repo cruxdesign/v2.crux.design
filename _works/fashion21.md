@@ -8,7 +8,7 @@ type: "Web Design & Dev"
 image: fashion-work.jpg
 class: p3
 
-cover-bg: /img/project/website/fashion21/cover-bg.jpg
+cover-bg: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/cover-bg.jpg
 
 social-media:
     - url: https://www.google.com
@@ -49,19 +49,17 @@ project-process:
    
 
 project-slider:
-    - image: /img/project/film/slider/img1.jpg
-    - image: /img/project/film/slider/img2.jpg
-    - image: /img/project/film/slider/img3.jpg
-    - image: /img/project/film/slider/img4.jpg
-    - image: /img/project/film/slider/img5.jpg
-    - image: /img/project/film/slider/img6.jpg
-    - image: /img/project/film/slider/img1.jpg
-    - image: /img/project/film/slider/img2.jpg
-    - image: /img/project/film/slider/img3.jpg
-    - image: /img/project/film/slider/img4.jpg
-    - image: /img/project/film/slider/img5.jpg
-    - image: /img/project/film/slider/img6.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img1.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img5.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img1.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fashion21/slides/img5.jpg
 
     
-project-responsive: /fashion21/responsive-design.png
+project-responsive: https://res.cloudinary.com/design-studio/image/upload/v1466748764/project/website/fashion21/responsive-design.png
 ---

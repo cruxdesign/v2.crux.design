@@ -8,8 +8,8 @@ type: "WEB DESIGN & DEV"
 image: mysterymanila-work.jpg
 class: p6
 
-cover-bg: /img/project/website/mystery-cover.jpg
-cover-logo: /img/project/website/mystery-logo.png
+cover-bg: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/mystery-cover.jpg
+cover-logo: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/mystery-logo.png
 social-media:
     - url: https://www.google.com
       social-icon: /img/project/website/icon_twitter.png
@@ -43,30 +43,23 @@ project-process:
     - title: Responsive Design
 
 project-slider:
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
-    - image: /img/project/website/slider/img2.png
-    - image: /img/project/website/slider/img3.png
-    - image: /img/project/website/slider/img4.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img2.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img3.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img4.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img2.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img3.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img4.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img2.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img3.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img4.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img2.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img3.png
+    - image: http://res.cloudinary.com/design-studio/image/upload/v1466748957/project/website/mysterymanila/slides/img4.png
   
 
 
     
-project-responsive: /mysterymanila/responsive-design.jpg
+project-responsive: http://res.cloudinary.com/design-studio/image/upload/project/website/mysterymanila/responsive-design.jpg
 
       
-project-related:
-    - title: Web Design 
-      image: /img/project/website/related/related1.jpg
-      
-    - title: Film
-      image: /img/project/website/related/related1.jpg  
-    
 ---

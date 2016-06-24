@@ -8,7 +8,7 @@ type: "Web Design & Dev"
 image: fscosmetics-work.jpg
 class: p6
 
-cover-logo: /img/project/branding/cover-logo.png
+cover-logo: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/cover-logo.png
 social-media:
     - url: https://www.google.com
       social-icon: /img/project/website/icon_twitter.png
@@ -42,20 +42,20 @@ project-process:
     - title: Responsive Design
 
 project-slider:
-    - image: /img/project/branding/slider/img2.jpg
-    - image: /img/project/branding/slider/img3.jpg
-    - image: /img/project/branding/slider/img4.jpg
-    - image: /img/project/branding/slider/img2.jpg
-    - image: /img/project/branding/slider/img3.jpg
-    - image: /img/project/branding/slider/img4.jpg
-    - image: /img/project/branding/slider/img2.jpg
-    - image: /img/project/branding/slider/img3.jpg
-    - image: /img/project/branding/slider/img4.jpg
-    - image: /img/project/branding/slider/img2.jpg
-    - image: /img/project/branding/slider/img3.jpg
-    - image: /img/project/branding/slider/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img4.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img2.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img3.jpg
+    - image: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/slides/img4.jpg
 
       
-project-responsive: /fscosmetics/responsive-design.png
+project-responsive: https://res.cloudinary.com/design-studio/image/upload/project/website/fscosmetics/responsive-design.png
     
 ---
